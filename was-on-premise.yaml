@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: was-on-premise
   annotations:
-    kubernetes.io/change-cause: was-on-premise:v1.0
+    kubernetes.io/change-cause: was-on-premise:v1.5
 spec:
   replicas: 2
   progressDeadlineSeconds: 600
