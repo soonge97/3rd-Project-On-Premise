@@ -40,7 +40,7 @@ spec:
           matchLabels:
             app: was-on-premise
       containers:
-      - image: soonge97/was-on-premise:v1.5
+      - image: soonge97/was-on-premise:v1.7
         name: was-on-premise
         ports:
         - containerPort: 8080
